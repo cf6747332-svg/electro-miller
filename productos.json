@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "nombre": "LG Smart TV 55\" UHD 4K ThinQ AI",
+        "categoria": "audio-video",
+        "marca": "LG",
+        "precio": 2499000,
+        "imagen": "images/productos/lg-tv-55.jpg",
+        "destacado": true,
+        "descripcion": "Smart TV con WebOS, LG Channels y 160 canales gratis. Resolución 4K UHD."
+    },
+    {
+        "id": 2,
+        "nombre": "Samsung TV 50\" Crystal UHD",
+        "categoria": "audio-video",
+        "marca": "Samsung",
+        "precio": 2199000,
+        "imagen": "images/productos/samsung-crystal.jpg",
+        "destacado": true,
+        "descripcion": "Crystal UHD con procesador 4K y HDR. Smart TV integrado."
+    },
+    {
+        "id": 3,
+        "nombre": "Nevera Haceb 430L No Frost",
+        "categoria": "electrodomesticos",
+        "marca": "Haceb",
+        "precio": 3899000,
+        "imagen": "images/productos/nevera-haceb.jpg",
+        "destacado": false,
+        "descripcion": "Nevera de 430 litros con sistema No Frost, eficiencia energética A+."
+    },
+    {
+        "id": 4,
+        "nombre": "Sofá Modular 4 Puestos",
+        "categoria": "muebles",
+        "marca": "Miller Home",
+        "precio": 3599000,
+        "imagen": "images/productos/sofa-modular.jpg",
+        "destacado": true,
+        "descripcion": "Sofá modular en tela premium, configurable para tu espacio."
+    },
+    {
+        "id": 5,
+        "nombre": "Lavadora LG 19Kg Smart AI",
+        "categoria": "electrodomesticos",
+        "marca": "LG",
+        "precio": 3199000,
+        "imagen": "images/productos/lavadora-lg.jpg",
+        "destacado": true,
+        "descripcion": "Lavadora con inteligencia artificial, carga superior 19kg."
+    },
+    {
+        "id": 6,
+        "nombre": "Estufa Indurama 5 Puestos",
+        "categoria": "cocina",
+        "marca": "Indurama",
+        "precio": 1299000,
+        "imagen": "images/productos/estufa-indurama.jpg",
+        "destacado": false,
+        "descripcion": "Estufa de gas con horno eléctrico, 5 puestos con parrilla."
+    },
+    {
+        "id": 7,
+        "nombre": "Producto Código 6660",
+        "categoria": "electrodomesticos",
+        "marca": "Premium",
+        "precio": 6660000,
+        "imagen": "images/productos/producto-6660.jpg",
+        "destacado": false,
+        "descripcion": "Producto especial con código 6660 - Consultar en tienda."
+    },
+    {
+        "id": 8,
+        "nombre": "Comedor 6 Puestos Madera",
+        "categoria": "muebles",
+        "marca": "Miller Home",
+        "precio": 4599000,
+        "imagen": "images/productos/comedor-6p.jpg",
+        "destacado": false,
+        "descripcion": "Comedor en madera maciza con 6 sillas tapizadas."
+    }
+]

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Catálogo completo de muebles y electrodomésticos Electromiller. Filtra por categoría, marca o precio.">
+    <title>Catálogo de Productos - Electromiller</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo/logo-electromiller.jpg" alt="Electromiller Logo">
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html" class="active">Productos</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="header-contact">
+                <span>📞 310 123 4567</span>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Menu mobile">☰</button>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Nuestros Productos</h1>
+            <p>Calidad y estilo para cada espacio de tu hogar</p>
+        </div>
+    </section>
+
+    <section class="products-section">
+        <div class="container">
+            <div class="filters">
+                <div class="filter-group">
+                    <label for="category-filter">Categoría:</label>
+                    <select id="category-filter">
+                        <option value="">Todas</option>
+                        <option value="electrodomesticos">Electrodomésticos</option>
+                        <option value="muebles">Muebles</option>
+                        <option value="cocina">Línea de Cocina</option>
+                        <option value="audio-video">Audio y Video</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="brand-filter">Marca:</label>
+                    <select id="brand-filter">
+                        <option value="">Todas</option>
+                        <option value="lg">LG</option>
+                        <option value="samsung">Samsung</option>
+                        <option value="haceb">Haceb</option>
+                        <option value="indurama">Indurama</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="price-filter">Precio:</label>
+                    <input type="range" id="price-filter" min="0" max="5000000" value="5000000">
+                    <span id="price-value">Hasta $5.000.000</span>
+                </div>
+            </div>
+
+            <div class="products-grid" id="products-grid">
+                <!-- Cargado dinámicamente desde productos.js -->
+            </div>
+
+            <div class="no-results" id="no-results" style="display: none;">
+                <h3>No se encontraron productos</h3>
+                <p>Intenta ajustar tus filtros de búsqueda</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="images/logo/logo-electromiller.jpg" alt="Logo" class="footer-logo">
+                    <p>Soluciones confiables para tu hogar en Facatativá desde 2014.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contacto</h4>
+                    <p>📍 CARRERA 4 A 6 61 BRR CENTRO</p>
+                    <p>📧 electromillersas@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Electromiller SAS. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/productos.js"></script>
+</body>
+</html>
